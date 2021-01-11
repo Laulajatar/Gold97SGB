@@ -53,3 +53,6 @@ used_space.png
 *.gbcpal
 *.dimensions
 *.sgb.tilemap
+
+# Krita files
+*.kra
