@@ -452,3 +452,19 @@ In-progress 5.05
 6.14
 - Fixed coloration issue in dept store maps
 - Flambear line can now learn Crunch
+
+6.15
+- Minor fixes to port tileset
+- Fixed issue where the pond on route 112 didn't have any encounters
+- Minor text fix in dialogue from warp guy at Amami Docks
+- Better coloration for office tileset
+
+6.16
+- Fixed issue where Kikai Village roofs were red instead of brown in GBC mode
+
+6.17
+- Fixed issue where guard in gate to Iejima Town was orange instead of yellow
+- Adjusted a few marts, more repels and escape ropes in stock
+
+6.18
+- When fighting Blue, he is labeled as just "BLUE" instead of "LEADER BLUE" since he's not a leader in this game
