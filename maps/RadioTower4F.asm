@@ -158,7 +158,7 @@ GruntM28AfterBattleText:
 	done
 
 KenGiveMapInTower:
-	text "KEN: Hey, bro!"
+	text "KEN: Hey, sis!"
 	line "I did it!"
 	para "I'm a DJ now!"
 	para "And the research"
@@ -256,7 +256,7 @@ RadioTower4fRockerTextTakeover:
 	
 	
 RadioTower4fSuperNerdText:
-	text "KEN: Hey, bro!"
+	text "KEN: Hey, sis!"
 	line "I did it!"
 	para "I'm a DJ now!"
 	para "And the research"
@@ -268,7 +268,7 @@ RadioTower4fSuperNerdText:
 	done
 	
 RadioTower4fSuperNerdTextTakeover:
-	text "KEN: Bro! What are"
+	text "KEN: Sis! What are"
 	line "you doing here!?"
 	para "Stay safe!"
 	done
@@ -277,7 +277,7 @@ RadioTower4fSuperNerdTextAfter:
 	text "KEN: Did you kick"
 	line "those ROCKETS out"
 	cont "of here?"
-	para "Bro, you and your"
+	para "Sis, you and your"
 	line "#MON are"
 	cont "seriously strong!"
 	done

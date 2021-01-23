@@ -92,7 +92,7 @@ TeknosPokecenter1F_BillText1:
 	para "I've looked"
 	line "everywhere!"
 	para "Oh dear, oh dear."
-	para "Excuse me, son."
+	para "Excuse me, kid."
 	line "You wouldn't have"
 	para "happened to see"
 	line "a young girl come"

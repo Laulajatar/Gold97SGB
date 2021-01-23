@@ -195,7 +195,7 @@ PlayersRadioText5:
 	done
 	
 KenGreeting1:
-	text "KEN: Hey, bro!"
+	text "KEN: Hey, sis!"
 	para "That shiny thing"
 	line "on your wrist…"
 	para "You finally got"
@@ -235,7 +235,7 @@ KenGreeting2:
 	done
 	
 KenGreeting3:
-	text "KEN: Hey, bro!"
+	text "KEN: Hey, sis!"
 	para "PROF.OAK asked you"
 	line "to help him make"
 	cont "a new #DEX?"
@@ -256,7 +256,7 @@ KenGreeting4:
 	para "radio DJ in"
 	line "WESTPORT CITY!"
 	para "I could be on the"
-	line "radio, bro!"
+	line "radio, sis!"
 	para "Listen for me in"
 	line "the future!"
 	para "And good luck out"
@@ -269,7 +269,7 @@ KenGreeting5:
 	para "radio DJ in"
 	line "WESTPORT CITY!"
 	para "I could be on the"
-	line "radio, bro!"
+	line "radio, sis!"
 	para "Listen for me in"
 	line "the future!"
 	para "And good luck out"
