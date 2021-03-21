@@ -280,36 +280,36 @@ BoardwalkGameCornerTMVendor_LoopScript:
 	jump BoardwalkGameCornerPrizeVendor_CancelPurchaseScript
 
 .Poison:
-	checkcoins 800
+	checkcoins 200
 	ifequal HAVE_LESS, BoardwalkGameCornerPrizeVendor_NotEnoughCoinsScript
 	itemtotext POISON_STONE, MEM_BUFFER_0
 	scall BoardwalkGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse BoardwalkGameCornerPrizeVendor_CancelPurchaseScript
 	giveitem POISON_STONE
 	iffalse BoardwalkGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	takecoins 800
+	takecoins 200
 	jump BoardwalkGameCornerTMVendor_FinishScript
 
 .Heart:
-	checkcoins 800
+	checkcoins 200
 	ifequal HAVE_LESS, BoardwalkGameCornerPrizeVendor_NotEnoughCoinsScript
 	itemtotext HEART_STONE, MEM_BUFFER_0
 	scall BoardwalkGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse BoardwalkGameCornerPrizeVendor_CancelPurchaseScript
 	giveitem HEART_STONE
 	iffalse BoardwalkGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	takecoins 800
+	takecoins 200
 	jump BoardwalkGameCornerTMVendor_FinishScript
 
 .Moon:
-	checkcoins 800
+	checkcoins 200
 	ifequal HAVE_LESS, BoardwalkGameCornerPrizeVendor_NotEnoughCoinsScript
 	itemtotext MOON_STONE, MEM_BUFFER_0
 	scall BoardwalkGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse BoardwalkGameCornerPrizeVendor_CancelPurchaseScript
 	giveitem MOON_STONE
 	iffalse BoardwalkGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	takecoins 800
+	takecoins 200
 	jump BoardwalkGameCornerTMVendor_FinishScript
 
 BoardwalkGameCornerPrizeVendor_ConfirmPurchaseScript:
@@ -357,9 +357,9 @@ BoardwalkGameCornerTMVendorMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "POISON STONE  800@"
-	db "HEART STONE   800@"
-	db "MOON STONE    800@"
+	db "POISON STONE  200@"
+	db "HEART STONE   200@"
+	db "MOON STONE    200@"
 	db "CANCEL@"
 
 BoardwalkGameCornerPrizeMonVendorScript:
