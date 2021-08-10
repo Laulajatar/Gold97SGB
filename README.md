@@ -9,6 +9,18 @@ It builds the following ROMs:
 
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
+## This fork
+
+... is just some messing around for personal use. On the custom branch:
+- Reusable TMs, but very unfancy (they just don't get deleted)
+- Changed day/night times, it's day from 10am-22pm 
+- Changed player sprite, it's Laura from prism
+- Reverted the type chart to normal gen2 gold/silver
+- Lowered the prices of coins in the game corner
+- Changed the colors of the cities slightly
+- Changed the color of the night majorly
+- Probably more things I forgot
+
 ## See also
 
 - **Discord:** [pret][discord]
