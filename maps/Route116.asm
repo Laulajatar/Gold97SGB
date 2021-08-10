@@ -14,7 +14,7 @@ Route116_MapScripts:
 	callback MAPCALLBACK_NEWMAP, .ClearTeknosRocks
 
 .ClearTeknosRocks:
-	setevent EVENT_FROSTPOINT_ROCKS_CLEARED
+	setevent EVENT_BOARDWALK_PATH_IS_OPEN
 	return
 
 
@@ -46,12 +46,12 @@ Route116Sign:
 
 
 
-Route116MaxPotion:
+Route116SuperPotion:
 	itemball SUPER_POTION
 
 
 Route116FruitTree:
-	fruittree FRUITTREE_ROUTE_116
+	fruittree FRUITTREE_TREE_ROUTE_116
 
 
 BugCatcherDougSeenText:
@@ -115,5 +115,5 @@ Route116_MapEvents:
 	db 4 ; object events
 	object_event  4, 26, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 5, TrainerBugCatcherDoug, -1
 	object_event  8, 19, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 5, TrainerHikerRussell, -1
-	object_event  4, 18, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route116MaxPotion, EVENT_ROUTE_116_MAX_POTION
+	object_event  4, 18, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route116SuperPotion, EVENT_ROUTE_116_MAX_POTION
 	object_event  4, 21, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route116FruitTree, -1

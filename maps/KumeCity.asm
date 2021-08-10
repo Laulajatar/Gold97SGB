@@ -29,10 +29,10 @@ UrumaCavernSign:
 	jumptext UrumaCavernSignText
 
 KumeCityFruitTree1:
-	fruittree FRUITTREE_KUME_CITY_1
+	fruittree FRUITTREE_TREE_KUME_CITY
 
 KumeCityFruitTree2:
-	fruittree FRUITTREE_KUME_CITY_2
+	fruittree FRUITTREE_TREE_KUME_CITY_2
 	
 KumeCityFisherScript:
 	jumptextfaceplayer KumeCityFisherText	
@@ -102,7 +102,7 @@ KumeCity_MapEvents:
 	warp_event  7,  6, KUME_MART, 1
 	warp_event 25, 18, KUME_POKECENTER_1F, 1
 	warp_event  7, 25, KUME_SHIP_PARTS_HOUSE, 1
-	warp_event 21, 13, KUME_SNOOZE_SPEECH_HOUSE, 1
+	warp_event 21, 13, KUME_ISLAND_LEGEND_SPEECH_HOUSE, 1
 	warp_event 17, 23, KUME_SOCIAL_HOUSE, 1
 	warp_event 15,  5, ICED_CAVERN_1F, 8
 

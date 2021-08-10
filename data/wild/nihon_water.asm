@@ -31,7 +31,7 @@ NihonWaterWildMons:
 	
 	map_id SANSKRIT_RUINS_OUTSIDE
 	db 6 percent ; encounter rate
-	db 18, OSUNFISH
+	db 18, MOLAMBINO
 	db 21, QUAGSIRE
 	db 18, QUAGSIRE
 	
@@ -46,30 +46,12 @@ NihonWaterWildMons:
 	db 18, GOLDEEN
 	db 21, POLIWAG
 	db 21, SEAKING
-	
-	map_id SLOWPOKE_WELL_B1F
-	db 2 percent ; encounter rate
-	db 18, SLOWPOKE
-	db 21, SLOWPOKE
-	db 12, SLOWPOKE
 
 	map_id SLOWPOKE_WELL_B2F
 	db 2 percent ; encounter rate
 	db 18, SLOWPOKE
 	db 21, SLOWPOKE
 	db 21, SLOWBRO
-	
-	map_id BOULDER_MINE_1F
-	db 4 percent ; encounter rate
-	db 21, TENTACOOL
-	db 18, TENTACOOL
-	db 21, TENTACRUEL
-
-	map_id BOULDER_MINE_B1F
-	db 4 percent ; encounter rate
-	db 21, TENTACOOL
-	db 18, TENTACOOL
-	db 21, TENTACRUEL
 
 	map_id BOULDER_MINE_B5F
 	db 4 percent ; encounter rate
@@ -78,18 +60,6 @@ NihonWaterWildMons:
 	db 21, GOLDUCK
 	
 	map_id BOULDER_MINE_B2F
-	db 4 percent ; encounter rate
-	db 21, TENTACOOL
-	db 18, TENTACOOL
-	db 21, TENTACRUEL
-	
-	map_id BOULDER_MINE_B3F
-	db 4 percent ; encounter rate
-	db 21, TENTACOOL
-	db 18, TENTACOOL
-	db 21, TENTACRUEL
-	
-	map_id BOULDER_MINE_B4F
 	db 4 percent ; encounter rate
 	db 21, TENTACOOL
 	db 18, TENTACOOL
@@ -160,8 +130,14 @@ NihonWaterWildMons:
 	db 21, SLOWPOKE
 	db 18, SLOWPOKE
 	db 21, SEEL
+	
+	map_id DEEPWATER_PASSAGE_EAST_CAVERN
+	db 4 percent ; encounter rate
+	db 21, SLOWPOKE
+	db 18, SEEL
+	db 21, QWILFISH
 
-	map_id DRAGONS_DEN_B1F
+	map_id DRAGONS_MAW_1F
 	db 4 percent ; encounter rate
 	db 21, TENTACOOL
 	db 18, TENTACOOL
@@ -176,13 +152,13 @@ NihonWaterWildMons:
 	map_id WHIRL_ISLAND_B1F
 	db 4 percent ; encounter rate
 	db 24, MAGIKARP
-	db 26, GYARADOS
+	db 26, STARYU
 	db 25, HORSEA
 	
 	map_id WHIRL_ISLAND_B2F
 	db 4 percent ; encounter rate
 	db 24, MAGIKARP
-	db 26, GYARADOS
+	db 26, STARYU
 	db 25, HORSEA
 	
 	map_id ROUTE_112
@@ -209,13 +185,13 @@ NihonWaterWildMons:
 	db 18, TENTACOOL
 	db 24, TENTACRUEL
 	
-	map_id VICTORY_ROAD
+	map_id MT_FUJI_INTERIOR_LOWER
 	db 4 percent ; encounter rate
 	db 27, MAGIKARP
 	db 30, GYARADOS
 	db 31, GYARADOS
 	
-	map_id VICTORY_ROAD_2F
+	map_id MT_FUJI_INTERIOR_UPPER
 	db 4 percent ; encounter rate
 	db 27, MAGIKARP
 	db 30, GYARADOS

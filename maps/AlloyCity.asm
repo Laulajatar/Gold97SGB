@@ -39,7 +39,6 @@ AlloyCityRivalSceneTop:
 	writetext AlloyCityRivalText
 	waitbutton
 	closetext
-	;applymovement PLAYER, MovementData_0x1a88f4
 	applymovement ALLOYCITY_ALLOY_RIVAL, MovementData_0x1a88db
 	turnobject PLAYER, LEFT
 	applymovement ALLOYCITY_ALLOY_RIVAL, MovementData_0x1a88db2
@@ -66,7 +65,6 @@ AlloyCityRivalSceneBottom:
 	writetext AlloyCityRivalText
 	waitbutton
 	closetext
-	;applymovement PLAYER, MovementData_0x1a88f7
 	applymovement ALLOYCITY_ALLOY_RIVAL, MovementData_0x1a88e8
 	turnobject PLAYER, LEFT
 	applymovement ALLOYCITY_ALLOY_RIVAL, MovementData_0x1a88db2
@@ -108,8 +106,8 @@ AlloyCitySign:
 AlloyGymSign:
 	jumptext AlloyGymSignText
 
-AlloyLighthouseSign:
-	jumptext AlloyLighthouseSignText
+AlloyDojoSign:
+	jumptext AlloyDojoSignText
 
 AlloyCityPokecenterSign:
 	jumpstd PokecenterSignScript
@@ -167,7 +165,7 @@ MovementData_0x1a88f7:
 AlloyCityGrampsText:
 	text "Ohohoho!"
 	para "You ever battle"
-	line "with the steel"
+	line "with the steel-"
 	cont "type?"
 	para "They have high"
 	line "defenses!"
@@ -255,7 +253,7 @@ AlloyGymSignText:
 	line "Defense Girl"
 	done
 
-AlloyLighthouseSignText:
+AlloyDojoSignText:
 	text "FIGHTING DOJO"
 	done
 
@@ -271,7 +269,7 @@ AlloyCity_MapEvents:
 	warp_event 23, 22, ALLOY_GOOD_ROD_HOUSE, 1
 	warp_event  5, 23, ALLOY_CAFE, 1
 	warp_event  7, 14, ALLOY_MART, 1
-	warp_event 23, 13, ALLOY_HOUSE_BETA, 1
+	warp_event 23, 13, ALLOY_SAILOR_HO_OH_HOUSE, 1
 	warp_event 18,  5, ALLOY_ROUTE_107_GATE, 3
 	warp_event 33, 15, FIGHTING_DOJO, 1
 	warp_event 19,  5, ALLOY_ROUTE_107_GATE, 4
@@ -284,7 +282,7 @@ AlloyCity_MapEvents:
 	db 5 ; bg events
 	bg_event 30, 21, BGEVENT_READ, AlloyCitySign
 	bg_event 32, 10, BGEVENT_READ, AlloyGymSign
-	bg_event 30, 15, BGEVENT_READ, AlloyLighthouseSign
+	bg_event 30, 15, BGEVENT_READ, AlloyDojoSign
 	bg_event  8,  8, BGEVENT_READ, AlloyCityPokecenterSign
 	bg_event  8, 14, BGEVENT_READ, AlloyCityMartSign
 

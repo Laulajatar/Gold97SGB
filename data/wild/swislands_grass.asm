@@ -94,9 +94,9 @@ SWIslandsGrassWildMons:
 	db 45, CHANSEY
 	db 44, CHANSEY
 	; day
-	db 44, PARAS
+	db 44, PARASECT
 	db 43, NIDORINO
-	db 44, VENONAT
+	db 44, VENOMOTH
 	db 45, EXEGGCUTE
 	db 43, FLAAFFY
 	db 45, CHANSEY
@@ -104,7 +104,7 @@ SWIslandsGrassWildMons:
 	; nite
 	db 44, ARIADOS
 	db 43, NIDORINO
-	db 44, VENONAT
+	db 44, VENOMOTH
 	db 45, EXEGGCUTE
 	db 43, FLAAFFY
 	db 45, CHANSEY
@@ -116,7 +116,7 @@ SWIslandsGrassWildMons:
 	db 39, PIDGEOTTO
 	db 42, PIDGEOTTO
 	db 43, PIDGEOT
-	db 40, MADAME
+	db 40, LUXWAN
 	db 39, RATICATE
 	db 40, JUMPLUFF
 	db 40, JUMPLUFF
@@ -124,7 +124,7 @@ SWIslandsGrassWildMons:
 	db 39, PIDGEOTTO
 	db 42, PIDGEOTTO
 	db 43, PIDGEOT
-	db 40, MADAME
+	db 40, LUXWAN
 	db 39, RATICATE
 	db 40, JUMPLUFF
 	db 40, JUMPLUFF
@@ -132,7 +132,7 @@ SWIslandsGrassWildMons:
 	db 39, NOCTOWL
 	db 39, RATICATE
 	db 40, NOCTOWL
-	db 40, MADAME
+	db 40, LUXWAN
 	db 39, RATICATE
 	db 40, NOCTOWL
 	db 40, NOCTOWL
@@ -140,29 +140,29 @@ SWIslandsGrassWildMons:
 	map_id KUME_POINT
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 50, PIDGEOTTO
-	db 50, PIDGEOTTO
-	db 51, PIDGEOT
-	db 51, MADAME
-	db 50, RATICATE
-	db 51, JUMPLUFF
-	db 51, JUMPLUFF
+	db 60, PIDGEOTTO
+	db 60, PIDGEOTTO
+	db 61, PIDGEOT
+	db 61, LUXWAN
+	db 60, RATICATE
+	db 61, JUMPLUFF
+	db 61, JUMPLUFF
 	; day
-	db 50, PIDGEOTTO
-	db 50, PIDGEOTTO
-	db 51, PIDGEOT
-	db 51, MADAME
-	db 50, RATICATE
-	db 51, JUMPLUFF
-	db 51, JUMPLUFF
+	db 60, PIDGEOTTO
+	db 60, PIDGEOTTO
+	db 61, PIDGEOT
+	db 61, LUXWAN
+	db 60, RATICATE
+	db 61, JUMPLUFF
+	db 61, JUMPLUFF
 	; nite
-	db 50, NOCTOWL
-	db 50, RATICATE
-	db 51, NOCTOWL
-	db 51, MADAME
-	db 50, RATICATE
-	db 51, NOCTOWL
-	db 51, NOCTOWL
+	db 60, NOCTOWL
+	db 60, RATICATE
+	db 61, NOCTOWL
+	db 61, LUXWAN
+	db 60, RATICATE
+	db 61, NOCTOWL
+	db 61, NOCTOWL
 	
 	map_id ISEN_LAB_FRONT
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -170,24 +170,24 @@ SWIslandsGrassWildMons:
 	db 50, MAGNETON
 	db 50, ELECTRODE
 	db 51, HAUNTER
-	db 51, CURPAN
-	db 50, RATICATE
+	db 51, KADABRA
+	db 50, HYPNO
 	db 51, RATICATE
 	db 51, RATICATE
 	; day
 	db 50, MAGNETON
 	db 50, ELECTRODE
 	db 51, HAUNTER
-	db 51, CURPAN
-	db 50, RATICATE
+	db 51, KADABRA
+	db 50, HYPNO
 	db 51, RATICATE
 	db 51, RATICATE
 	; nite
 	db 50, MAGNETON
 	db 50, ELECTRODE
 	db 51, HAUNTER
-	db 51, CURPAN
-	db 50, RATICATE
+	db 51, PHANDARIN
+	db 50, HYPNO
 	db 51, RATICATE
 	db 51, RATICATE
 
@@ -295,7 +295,7 @@ SWIslandsGrassWildMons:
 	db 42, NOCTOWL
 	db 41, JUMPLUFF
 	db 44, SKIPLOOM
-	db 42, PLUCKROSS
+	db 42, TRICULES
 	db 41, AIPOM
 	db 42, AIPOM
 	
@@ -334,7 +334,7 @@ SWIslandsGrassWildMons:
 	db 48, GRAVELER
 	db 48, MACHOKE
 	db 52, WEEZING
-	db 50, BOMSEAL
+	db 50, GRENMAR
 	db 50, MAGMAR
 	db 52, MAGMAR
 	; day
@@ -342,7 +342,7 @@ SWIslandsGrassWildMons:
 	db 48, GRAVELER
 	db 48, MACHOKE
 	db 52, WEEZING
-	db 50, BOMSEAL
+	db 50, GRENMAR
 	db 50, MAGMAR
 	db 52, MAGMAR
 	; nite
@@ -350,7 +350,7 @@ SWIslandsGrassWildMons:
 	db 48, GRAVELER
 	db 48, MACHOKE
 	db 52, WEEZING
-	db 50, BOMSEAL
+	db 50, GRENMAR
 	db 50, MAGMAR
 	db 52, MAGMAR
 
@@ -362,107 +362,134 @@ SWIslandsGrassWildMons:
 	db 48, GRAVELER
 	db 48, MACHOKE
 	db 52, WEEZING
-	db 50, BOMSEAL
-	db 50, WEEZING
-	db 50, WEEZING
+	db 50, GRENMAR
+	db 50, MAGMAR
+	db 52, MAGMAR
 	; day
 	db 50, MACHOKE
 	db 48, GRAVELER
 	db 48, MACHOKE
 	db 52, WEEZING
-	db 50, BOMSEAL
-	db 50, WEEZING
-	db 50, WEEZING
+	db 50, GRENMAR
+	db 50, MAGMAR
+	db 52, MAGMAR
 	; nite
 	db 50, MACHOKE
 	db 48, GRAVELER
 	db 48, MACHOKE
 	db 52, WEEZING
-	db 50, BOMSEAL
-	db 50, WEEZING
-	db 50, WEEZING
+	db 50, GRENMAR
+	db 50, MAGMAR
+	db 52, MAGMAR
+
+	map_id KIKAI_CALDERA_3F
+	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
+	; morn
+	db 50, MACHOKE
+	db 48, GRAVELER
+	db 48, MACHOKE
+	db 52, WEEZING
+	db 50, GRENMAR
+	db 50, MAGMAR
+	db 52, MAGMAR
+	; day
+	db 50, MACHOKE
+	db 48, GRAVELER
+	db 48, MACHOKE
+	db 52, WEEZING
+	db 50, GRENMAR
+	db 50, MAGMAR
+	db 52, MAGMAR
+	; nite
+	db 50, MACHOKE
+	db 48, GRAVELER
+	db 48, MACHOKE
+	db 52, WEEZING
+	db 50, GRENMAR
+	db 50, MAGMAR
+	db 52, MAGMAR
 	
 	map_id TROPICAL_ISLAND_OUTSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 55, SLOWPOKE
-	db 56, WEEPINBELL
-	db 55, PSYDUCK
-	db 55, EXEGGCUTE
-	db 57, EXEGGCUTE
-	db 56, WEEPINBELL
-	db 58, WEEPINBELL
+	db 65, SLOWPOKE
+	db 66, WEEPINBELL
+	db 65, PSYDUCK
+	db 65, EXEGGCUTE
+	db 67, EXEGGCUTE
+	db 66, WEEPINBELL
+	db 68, WEEPINBELL
 	; day
-	db 55, SLOWPOKE
-	db 56, WEEPINBELL
-	db 55, PSYDUCK
-	db 55, EXEGGCUTE
-	db 57, EXEGGCUTE
-	db 56, WEEPINBELL
-	db 58, WEEPINBELL
+	db 65, SLOWPOKE
+	db 66, WEEPINBELL
+	db 65, PSYDUCK
+	db 65, EXEGGCUTE
+	db 67, EXEGGCUTE
+	db 66, WEEPINBELL
+	db 68, WEEPINBELL
 	; nite
-	db 55, SLOWPOKE
-	db 56, POLIWHIRL
-	db 55, GOLDUCK
-	db 55, EXEGGCUTE
-	db 57, EXEGGCUTE
-	db 56, POLIWHIRL
-	db 58, POLIWHIRL
+	db 65, SLOWPOKE
+	db 66, POLIWHIRL
+	db 65, GOLDUCK
+	db 65, EXEGGCUTE
+	db 67, EXEGGCUTE
+	db 66, POLIWHIRL
+	db 68, POLIWHIRL
 
 	map_id TROPICAL_ISLAND_JUNGLE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 55, WEEPINBELL
-	db 56, BUTTERFREE
-	db 55, LICKITUNG
-	db 55, PRIMEAPE
-	db 57, PARASECT
-	db 56, LICKITUNG
-	db 58, LICKITUNG
+	db 65, WEEPINBELL
+	db 66, BUTTERFREE
+	db 65, LICKITUNG
+	db 65, PRIMEAPE
+	db 67, PARASECT
+	db 66, LICKITUNG
+	db 68, LICKITUNG
 	; day
-	db 55, WEEPINBELL
-	db 56, BUTTERFREE
-	db 55, LICKITUNG
-	db 55, PRIMEAPE
-	db 57, PARASECT
-	db 56, LICKITUNG
-	db 58, LICKITUNG
+	db 65, WEEPINBELL
+	db 66, BUTTERFREE
+	db 65, LICKITUNG
+	db 65, PRIMEAPE
+	db 67, PARASECT
+	db 66, LICKITUNG
+	db 68, LICKITUNG
 	; nite
-	db 55, GLOOM
-	db 56, VENOMOTH
-	db 55, LICKITUNG
-	db 55, PRIMEAPE
-	db 57, PARASECT
-	db 56, LICKITUNG
-	db 58, GLOOM
+	db 65, GLOOM
+	db 66, VENOMOTH
+	db 65, LICKITUNG
+	db 65, PRIMEAPE
+	db 67, PARASECT
+	db 66, LICKITUNG
+	db 68, LICKITUNG
 	
 	
 	map_id RAINBOW_ISLAND
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 55, BUTTERFREE
-	db 56, LEDIAN
-	db 55, JIGGLYPUFF
-	db 55, PIKACHU
-	db 57, EXEGGCUTE
-	db 56, DODRIO
-	db 58, TOGEPI
+	db 65, BUTTERFREE
+	db 66, LEDIAN
+	db 65, JIGGLYPUFF
+	db 65, PIKACHU
+	db 67, EXEGGCUTE
+	db 66, DODRIO
+	db 68, DODRIO
 	; day
-	db 55, BUTTERFREE
-	db 56, LEDIAN
-	db 55, JIGGLYPUFF
-	db 55, PIKACHU
-	db 57, EXEGGCUTE
-	db 56, PIDGEOT
-	db 58, TOGEPI
+	db 65, BUTTERFREE
+	db 66, LEDIAN
+	db 65, JIGGLYPUFF
+	db 65, PIKACHU
+	db 67, EXEGGCUTE
+	db 66, PIDGEOT
+	db 68, PIDGEOT
 	; nite
-	db 55, GLOOM
-	db 56, RATICATE
-	db 55, JIGGLYPUFF
-	db 55, MEOWTH
-	db 57, EXEGGCUTE
-	db 56, ONIX
-	db 58, TOGEPI
+	db 65, GLOOM
+	db 66, RATICATE
+	db 65, JIGGLYPUFF
+	db 65, MEOWTH
+	db 67, EXEGGCUTE
+	db 66, ONIX
+	db 68, ONIX
 
 	map_id MOTOBU_PATH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -472,24 +499,24 @@ SWIslandsGrassWildMons:
 	db 47, PRIMEAPE
 	db 50, EXEGGCUTE
 	db 47, KINGLER
-	db 48, RAITORA
-	db 50, PRIMEAPE
+	db 48, STRAIGAR
+	db 50, STRAIGAR
 	; day
 	db 46, KRABBY
 	db 46, MANKEY
 	db 47, PRIMEAPE
 	db 50, EXEGGCUTE
 	db 47, KINGLER
-	db 48, RAITORA
-	db 50, PRIMEAPE
+	db 48, STRAIGAR
+	db 50, STRAIGAR
 	; nite
 	db 46, KRABBY
 	db 47, ARBOK
-	db 47, BELLRING
-	db 50, TANGELA
+	db 47, BELLEDAM
+	db 50, JUNGELA
 	db 46, KINGLER
-	db 48, RAITORA
-	db 50, TANGELA
+	db 48, STRAIGAR
+	db 50, STRAIGAR
 	
 	map_id WEATHERED_TRAIL
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -497,7 +524,7 @@ SWIslandsGrassWildMons:
 	db 50, PIDGEOTTO
 	db 50, PIDGEOTTO
 	db 51, PIDGEOT
-	db 51, MADAME
+	db 51, LUXWAN
 	db 50, ELECTRODE
 	db 51, JUMPLUFF
 	db 51, JUMPLUFF
@@ -505,7 +532,7 @@ SWIslandsGrassWildMons:
 	db 50, PIDGEOTTO
 	db 50, PIDGEOTTO
 	db 51, PIDGEOT
-	db 51, MADAME
+	db 51, LUXWAN
 	db 50, ELECTRODE
 	db 51, JUMPLUFF
 	db 51, JUMPLUFF
@@ -513,7 +540,7 @@ SWIslandsGrassWildMons:
 	db 50, NOCTOWL
 	db 50, RATICATE
 	db 51, NOCTOWL
-	db 51, MADAME
+	db 51, LUXWAN
 	db 50, ELECTRODE
 	db 51, NOCTOWL
 	db 51, NOCTOWL
