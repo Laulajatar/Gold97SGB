@@ -403,7 +403,7 @@ MartMtMoon:; UNUSED
 	db -1 ; end
 
 MartMountFuji:; good
-	db 7 ; # items
+	db 9 ; # items
 	db ULTRA_BALL
 	db MAX_REPEL
 	db HYPER_POTION
@@ -411,6 +411,8 @@ MartMountFuji:; good
 	db FULL_RESTORE
 	db REVIVE
 	db FULL_HEAL
+    db RARE_CANDY
+    db LUCKY_EGG
 	db -1 ; end
 
 MartUnderground:; good
